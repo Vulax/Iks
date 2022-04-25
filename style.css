@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100vw;
+    background-color: #ea600e;
+    padding: 0;
+    text-align: center;
+}
+
+.menu {
+    width: 30px;
+    float: left;
+    margin-top: 15px;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: -70px;
+    margin-left: -55px;
+}
+
+#form {
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width:80%;
+}
+
+.big {
+    width:100%;
+    height: 20px;
+}
+
+#image {
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width:70%;
+    transform: translate(-50%, -50%);
+    height:30%;
+}
+
