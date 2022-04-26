@@ -44,8 +44,27 @@ body {
     position: fixed;
     top: 40%;
     left: 50%;
-    width:70%;
+    width:300px;
     transform: translate(-50%, -50%);
-    height:30%;
+    height:300px;
 }
 
+#green {
+    display: none;
+    position: fixed;
+    top: 70%;
+    left: 10%;
+    width:50px;
+    transform: translate(-50%, -50%);
+    height:50px;
+}
+
+#op {
+    display: none;
+    position: fixed;
+    top: 65%;
+    left: 20%;
+    width:70px;
+    transform: translate(-50%, -50%);
+    height:50px;
+}

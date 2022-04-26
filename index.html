@@ -14,11 +14,20 @@
     </nav>
     <script src="script.js"></script>
     <form id="form">
+        <p>Ime primaoca:</p>
+        <input type="text" class="big" onclick="show()" readonly></input>
+
         <p>Broj računa:</p>
         <input type="text" class="big" onclick="show()" readonly></input>
+
+        <p>Iznos (RSD):</p>
+        <input type="text" class="big" onclick="show()" readonly></input>
+        
     </form>
 
-    <img id="image" src="Error.png"/>
+    <img id="image" src="Error.png" onclick="hide()"/>
+    <img id="green" src="ZeleniKrug.png"/>
+    <img id="op" src="PLS.png"/>
 
 </body>
 </html>
