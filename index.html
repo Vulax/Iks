@@ -15,19 +15,24 @@
     <script src="script.js"></script>
     <form id="form">
         <p>Ime primaoca:</p>
-        <input type="text" class="big" onclick="show()" readonly></input>
+        <input type="text" class="big" readonly></input>
 
         <p>Broj računa:</p>
-        <input type="text" class="big" onclick="show()" readonly></input>
+        <input type="text" class="big"  readonly></input>
 
         <p>Iznos (RSD):</p>
-        <input type="text" class="big" onclick="show()" readonly></input>
-        
+        <input type="text" class="big"  readonly></input>
+        <br><br>
+        <button onclick="show()" type="button">Posalji</button>
     </form>
 
+    <div id="box">
+        <p>Sekcija za digitalno opismenjavanje</p>
+    </div>
+
     <img id="image" src="Error.png" onclick="hide()"/>
-    <img id="green" src="ZeleniKrug.png"/>
-    <img id="op" src="PLSTekst.png"/>
+    
+   
 
 </body>
 </html>
