@@ -60,7 +60,7 @@ body {
 }
 
 #box{
-  
+    display:none;
     position: fixed;
     top: 65%;
     left:20%;
